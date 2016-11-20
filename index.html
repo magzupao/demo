@@ -105,16 +105,16 @@
 	</head>
 	<body>
 
-	<div id="fh5co-container">
+	<div id="fh5co-container" data-section="index">
 		<div>
 
 			<div class="presentacion-video">
 				<div class="overlay" style="width: 40%;">
-					<button type="button" style="cursor: pointer; color:#000; background-color: #fff847;" data-toggle="modal" data-target="#modalGratis">El 5 no paga, sale GRATIS!</button>
+					<button type="button" style="cursor: pointer; color:#000; background-color: #fff847; font-family: Arial;" data-toggle="modal" data-target="#modalGratis">El 5 no paga, sale GRATIS!</button>
 				</div>
 
 				<div class="overlay-jump-menu" style="margin-left: 100px; text-align: center;">
-					<button type="button" style="cursor: pointer; color:#000; background-color: #fff847;" data-toggle="modal" data-target="#modalAniversario">El cumpleañero NO PAGA!</button>
+					<button type="button" style="cursor: pointer; color:#000; background-color: #fff847; font-family: Arial; " data-toggle="modal" data-target="#modalAniversario">El cumpleañero NO PAGA!</button>
 				</div>
 	 
 
@@ -131,7 +131,7 @@
 			<div class="fh5co-main-nav">
 				<div class="container-fluid">
 					<div class="fh5co-menu-1">
-						<a href="#" data-nav-section="home">Inicio</a>
+						<a href="#" data-nav-section="index">Inicio</a>
 						<a href="#" data-nav-section="about">Nosotros</a>
 						<a href="#" data-nav-section="features">Buffet</a>
 						<a href="#" data-nav-section="fotos">Fotogaleria</a>
@@ -143,7 +143,7 @@
 						<a href="#" data-nav-section="events">Eventos</a>
 						<a href="#" data-nav-section="wedding">Bodas</a>
 						<a href="#" data-nav-section="reservation">Reservas</a>
-						<a href="#" data-nav-section="reservation">Ubicación</a>
+						<a href="#" data-nav-section="location">Ubicación</a>
 					</div>
 				</div>
 				
@@ -498,7 +498,7 @@ Ofrecemos un abanico de propuestas gastronómicas, criollas, regionales e intern
 							<li><i class="icon-phone"></i> (123) 465-6789</li>
 							<li><i class="icon-envelope"></i>info@freehtml5.co</li>
 						</ul>
-						<div>
+						<div data-section="location">
 							<iframe marginheight="0" marginwidth="0" name="I1" scrolling="no" src="https://maps.google.es/maps/ms?ie=UTF8&amp;hl=es&amp;msa=0&amp;msid=214702394538615740903.00048c5037e8fcadddd8e&amp;t=m&amp;ll=-12.087772,-77.027593&amp;spn=0.020983,0.043902&amp;z=15&amp;iwloc=00048c503b82ebb78f619&amp;output=embed" width="400" height="400" frameborder="0"></iframe>
 						</div>
 					</div>
@@ -608,8 +608,8 @@ Ofrecemos un abanico de propuestas gastronómicas, criollas, regionales e intern
 	</div>	
 	
 	<!-- Modal -->
-	<div id="modalGratis" class="modal fade" role="dialog">
-		<div class="modal-dialog">
+	<div id="modalGratis" class="modal fade" role="dialog" >
+		<div class="modal-dialog" style="z-index=10;">
 
 			<!-- Modal content-->
 			<div class="modal-content">
